@@ -4,5 +4,7 @@
       "dockerfile": "../.gitpod.Dockerfile",
     },
     "postCreateCommand": "make all",
-    "remoteUser": "gitpod"
+    "remoteUser": "gitpod",
+    "workspaceFolder": "/workspaces",
+    "workspaceMount": "source=/workspaces,target=/workspaces,type=bind",
 }
